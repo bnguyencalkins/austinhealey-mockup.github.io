@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The website for the Minnesota Austin Healey Club, proud owners of the classic British Austin Healey.">
+    <meta name="author" content="">
+    <title>The Minnesota Austin Healey Club: Come join or find an event to meet!</title>
+    <link rel="shortcut icon" href="/img/logo.jpg">
+    <link rel="stylesheet" href="/css/bootstrap.css">
+</head>
+
+<body>
+
+<!-- Customizes the navigation bar with website title !-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary ">
+
+    <img class=" img-navbar p-1 " src="img/logo.jpg">
+ 
+  <a class="navbar-brand text-secondary font-weight-bold" href="#">The MN Austin Healey Club</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse">
+    
+     <form class="form-inline my-2 my-lg-0 ml-auto ">
+      <input class="form-control mr-sm-2 " type="text" placeholder="Search Archives..." aria-label="Search">
+      <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+    </form>
+    
+  </div>
+</nav>
+<!--/// ENDS custom navigation bar !-->
+
+<!-- containing div!-->
+<div class = " wrap " >
+
+
+<div class = "row no-gutters ">
+   
+    <div class = "col-sm-3 col-md-2 bg-orange ">
+       <h2 class = " text-black text-center pt-2 ">Main Menu</h2>
+        <ul class = " list-group ">
+            <li class = " list-group-item "><a href = "index.html">Home</a></li>
+            <li class = " list-group-item "><a href= "contact.html">Calendar</a></li>
+            <li class = " list-group-item "><a href= "gallery.html">Gallery</a></li>
+            <li class = " list-group-item "><a href= "newsletter.html">Newsletter</a></li>
+            <li class = " list-group-item "><a href= "join.html">Join the Club</a></li>
+            <li class = " list-group-item "><a href= "about.html">About the Club</a></li>
+            <li class = " list-group-item "><a href= "archives.html">Archives</a></li>
+            <li class = " list-group-item active "><a href= "resources.html">Resources</a></li>
+        </ul>
+    </div>
+    <div class = " col-sm-7 ">
+
+<div class = " tabcontent active pb-5 " id = "intro">
+       <h1 class= "pl-2 text-center ">Welcome</h1>
+        <p class = " pl-3 pt-3 pr-3 font-weight-bold ">
+            The Minnesota Austin Healey Club (MAHC) is a chapter of the Austin Healey Club of America.</p>
+        <p class = " pl-3 pt-3 pr-3 font-weight-bold ">
+             Check our calendar, sign up for our newsletter and join us as we drive together.</p>
+
+<div class="justify-content-end d-flex p-5">(LINK TO ABOUT THE CLUB) Learn more...</div>
+</div>
+
+<div class = " tabcontent pb-5 " id = "help">
+   <h1 class = "pl-2 text-center ">We can help</h1>
+    <ul class = " pt-3 pl-5 pr-3 font-weight-bold ">
+    <li>
+        Have a problem with your car? We all have had problems; fortunately solutions have been found.
+    </li>
+    
+    <li>
+        Have you always wanted a "Healey" but don't know were to start? We know cars, how to access them, and what to expect, and a few members might even have an opinion.
+    </li>
+    
+    <li>
+        Tired of your people thinking you're "nuts" to want an "old car"? Come to this happy place, and soon they will ask you if they can tag along.
+    </li>
+    
+    <li>
+        Want an excuse to not mow your lawn, and to drive your car instead? We are that excuse.
+    </li>
+</ul>
+</div>
+
+<div class = " tabcontent pb-5 " id = "invite">
+   <h1 class = "pl-2 text-center ">Come join! </h1>
+    <p  class = " pt-3 pl-3 pr-3 font-weight-bold" >
+You are invited to attend any event and/or our monthly informal meeting, which usually happens on the first Wednesday of the month (verify with the calendar or newsletter) at 6 PM for the social hour (7 PM for the meeting) at Joseph's Grill, located at 140 South Wabasha in St. Paul. If you want more information please give me a call or email me. Or if you wish, try to catch-up and chat with that Healey driver that just passed you.
+        </p>
+</div>
+
+    <!-- pagination for scrolling intro story !-->
+    
+<div class = " justify-content-between bottom ">
+    
+    <button class = " btn tablinks active " onclick = " openTab(event, 'intro')">
+        Welcome
+    </button>
+    
+    <button class = " btn tablinks " onclick = " openTab(event, 'help')">
+        Help
+    </button>
+    
+    <button class = " btn tablinks " onclick = "openTab(event, 'invite')">
+        Join
+    </button>
+    
+</div>    
+   
+    <!--//// pagination for scrolling intro story///// !-->
+    </div>
+    <div class = " col-sm-2 col-md-3 ">
+        <img class = " img-fluid rounded border " src="img/hoods.jpg">
+    </div>
+    
+</div>
+<!-- ///ENDS body row //!-->
+
+<div class = " row bg-dark mr-auto justify-content-between text-secondary text-center mt-3 fixed-bottom ">
+   
+    <div class = " col-4 ">
+        IDK
+    </div>
+    
+     <div class = " col-4 ">
+        Contact
+    </div>
+    
+    <div class = " col-4 ">
+        Copyright
+    </div>
+    
+</div>
+
+</div>
+<!-- ENDS wrap, containing div !-->
+
+<!--compiled "clean" js !-->
+<script src="/js/bootstrap.js"></script>
+
+ 
+<!-- Bootstrap stuff... idk basic template req !-->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+       
+
+</body>
+</html>
